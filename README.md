@@ -1,2 +1,2 @@
 # cadasSTre
-Cross-platform data for sequencing-based spatial transcriptomics benchmarking
+ICross-platform data for sequencing-based spatial transcriptomics benchmarking
