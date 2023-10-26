@@ -1,8 +1,9 @@
+## **Overview**
 cadasSTre is a cross-platform data for sequencing-based ST benchmarking which allows for the evaluation of the performance of each technology in terms of spatial resolution, capture efficiency, and molecular diffusion. 
 
 This is an overview of a set of scripts used for processing various types of data, including their execution order, input & output files, and a brief description for each script.
 
-How do I use these scripts for my own analysis?
+## **How do I use these scripts for my own analysis?**
 
 The analysis pipeline follows a certain script execution order. To process the data, it is recommended to execute these scripts in the following order:
 1. Begin with bam_barcode_matching.py to clean the BAM file, perform bead barcode matching, and generate a whitelist
@@ -12,7 +13,7 @@ The analysis pipeline follows a certain script execution order. To process the d
 5. Finally, execute select_reads_copy.py to extract gene tags, UMI tags, and generate a gene-UMI matrix from a BAM file
 
 
-What do these scripts do and their corresponding input and output files?
+## **What do these scripts do and their corresponding input and output files?**
 
 Script 1: bam_barcode_matching.py
 Performs BAM file cleanup, bead barcode matching, and generates a whitelist based on barcode information.
